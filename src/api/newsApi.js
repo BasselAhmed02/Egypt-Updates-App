@@ -2,20 +2,20 @@ const API_KEY = "1ae61e3a7c2646a98e98e24445b7c394";
 const BASE_URL = "https://newsapi.org/v2";
 
 export const fetchNews = async () => {
-  try {
-    const response = await fetch(
-      `${BASE_URL}/everything?q=latest&sortBy=publishedAt&apiKey=${API_KEY}`
-    );
-    if (!response.ok) {
-      throw new Error(`Error: ${response.status}`);
-    }
-    const data = await response.json();
-    console.log(data.articles);
-    return data.articles;
-  } catch (error) {
-    console.error("Failed to fetch news:", error);
-    return [];
-  }
+  // try {
+  //   const response = await fetch(
+  //     `${BASE_URL}/everything?q=latest&sortBy=publishedAt&apiKey=${API_KEY}`
+  //   );
+  //   if (!response.ok) {
+  //     throw new Error(`Error: ${response.status}`);
+  //   }
+  //   const data = await response.json();
+  //   console.log(data.articles);
+  //   return data.articles;
+  // } catch (error) {
+  //   console.error("Failed to fetch news:", error);
+  //   return [];
+  // }
 
   // Used for mocking in development
   return [
