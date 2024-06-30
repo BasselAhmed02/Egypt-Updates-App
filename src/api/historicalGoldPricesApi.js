@@ -1,4 +1,4 @@
-//const API_KEY = "goldapi-rgclisly0ol9b7-io";
+const API_KEY = "goldapi-rgclisly0ol9b7-io";
 const BASE_URL = "https://www.goldapi.io/api";
 
 const fetchGoldPricesForDate = async (date) => {
