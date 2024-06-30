@@ -34,13 +34,46 @@ const fetchGoldPricesForDate = async (date) => {
 };
 
 export const fetchHistoricalGoldPrices = async () => {
-  const dates = ["2023-06-30", "2024-01-01", "2024-06-29"];
-  const prices = await Promise.all(dates.map(fetchGoldPricesForDate));
-  const result = {};
+  // const dates = ["2023-06-30", "2024-01-01", "2024-06-29"];
+  // const prices = await Promise.all(dates.map(fetchGoldPricesForDate));
+  // const result = {};
 
-  dates.forEach((date, index) => {
-    result[date] = prices[index];
-  });
+  // dates.forEach((date, index) => {
+  //   result[date] = prices[index];
+  // });
 
-  return result;
+  // return result;
+
+  return {
+    "2023-06-30": {
+      "24k": 60.0,
+      "22k": 55.5,
+      "21k": 53.0,
+      "20k": 50.0,
+      "18k": 45.0,
+      "16k": 40.0,
+      "14k": 35.0,
+      "10k": 25.0,
+    },
+    "2024-01-01": {
+      "24k": 64.0,
+      "22k": 59.5,
+      "21k": 58.0,
+      "20k": 53.0,
+      "18k": 48.0,
+      "16k": 43.0,
+      "14k": 38.0,
+      "10k": 28.0,
+    },
+    "2024-06-29": {
+      "24k": 70.0,
+      "22k": 65.5,
+      "21k": 63.0,
+      "20k": 60.0,
+      "18k": 55.0,
+      "16k": 50.0,
+      "14k": 45.0,
+      "10k": 35.0,
+    },
+  };
 };
