@@ -19,22 +19,22 @@ export const fetchNews = async () => {
 
   // Used for mocking in development
   return [
-    {
-      source: {
-        id: null,
-        name: "Gizmodo.com",
-      },
-      author: "Cheryl Eddy",
-      title: "Apple TV+'s Neuromancer Series Takes Another Step Forward",
-      description:
-        "Hollywood has been trying to adapt William Gibson’s groundbreaking 1984 cyberpunk novel Neuromancer for years—and now it really seems the latest attempt, taking the form not of a feature film but a series at sci-fi hub Apple TV+—is truly happening. After a Fe…",
-      url: "https://gizmodo.com/neuromancer-appletv-series-casts-briana-middleton-scifi-1851567254",
-      urlToImage:
-        "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/c9f2dac50362707852d4e567f42b6e58.jpg",
-      publishedAt: "2024-06-29T14:00:00Z",
-      content:
-        "Hollywood has been trying to adaptWilliam Gibsons groundbreaking 1984 cyberpunk novel Neuromancer for yearsand now it really seems the latest attempt, taking the form not of a feature film but a seri… [+1604 chars]",
-    },
+    // {
+    //   source: {
+    //     id: null,
+    //     name: "Gizmodo.com",
+    //   },
+    //   author: "Cheryl Eddy",
+    //   title: "Apple TV+'s Neuromancer Series Takes Another Step Forward",
+    //   description:
+    //     "Hollywood has been trying to adapt William Gibson’s groundbreaking 1984 cyberpunk novel Neuromancer for years—and now it really seems the latest attempt, taking the form not of a feature film but a series at sci-fi hub Apple TV+—is truly happening. After a Fe…",
+    //   url: "https://gizmodo.com/neuromancer-appletv-series-casts-briana-middleton-scifi-1851567254",
+    //   urlToImage:
+    //     "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/c9f2dac50362707852d4e567f42b6e58.jpg",
+    //   publishedAt: "2024-06-29T14:00:00Z",
+    //   content:
+    //     "Hollywood has been trying to adaptWilliam Gibsons groundbreaking 1984 cyberpunk novel Neuromancer for yearsand now it really seems the latest attempt, taking the form not of a feature film but a seri… [+1604 chars]",
+    // },
     {
       source: {
         id: null,
