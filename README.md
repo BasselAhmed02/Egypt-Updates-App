@@ -63,8 +63,8 @@ Accessible through: https://egypt-updates-app.vercel.app/
 
 ## Screenshots
 
-![Exchange Rates](screenshots/Exchange Rates.png)
+![Exchange Rates](screenshots/Exchange_Rates.png)
 
-![Gold Prices](screenshots/Gold Prices.png)
+![Gold Prices](screenshots/Gold_Prices.png)
 
-![Latest News](screenshots/Latest News.png)
+![Latest News](screenshots/Latest_News.png)
