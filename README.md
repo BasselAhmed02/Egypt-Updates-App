@@ -2,6 +2,8 @@
 
 A web app that provides you with the latest news, currency exchange rates for EGP-USD and Gold prices.
 
+Accessible through: https://egypt-updates-app.vercel.app/
+
 ## Features
 
 - Retrieves EGP-USD currency exchange rate.
