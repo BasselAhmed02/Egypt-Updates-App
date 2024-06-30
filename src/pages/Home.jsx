@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <div className="container mx-auto p-4 space-y-8">
       {/* Exchange Rates */}
-      <div className="bg-yellow-100 p-6 rounded-lg shadow-lg">
+      <div className="bg-yellow-500 p-6 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold mb-4">Exchange Rates</h2>
         {exchangeRate ? (
           <ExchangeRateCard rate={exchangeRate} />
